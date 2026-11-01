@@ -1,0 +1,85 @@
+{
+  "version": "1.0-ptbr",
+  "total": 100,
+  "note": "Treze itens para perfil de LinkedIn no mercado brasileiro. Dê nota com honestidade: a maioria dos perfis fica entre 30 e 50 na primeira avaliação. Para quem está buscando vaga, título, sobre, experiência atual e competências pesam mais, porque é o que recrutadores e a busca do LinkedIn leem.",
+  "items": [
+    {
+      "id": "titulo",
+      "points": 12,
+      "full_marks": "O título (até 220 caracteres) diz o cargo que a pessoa quer, a especialidade e uma prova ou diferencial, com as palavras que recrutadores buscam: 'Analista de Dados | SQL, Power BI, Python | Varejo'. Não é só o cargo atual, não é 'Em busca de novos desafios'.",
+      "common_fail": "'Desempregado', 'Open to work' ou só o nome da empresa."
+    },
+    {
+      "id": "sobre_abertura",
+      "points": 9,
+      "full_marks": "As duas primeiras linhas do Sobre (o que aparece antes de 'ver mais') dizem o que a pessoa faz e para quem, com um resultado. Sem 'apaixonado por', sem texto em terceira pessoa.",
+      "common_fail": "'Profissional dinâmico e proativo, apaixonado por desafios...'."
+    },
+    {
+      "id": "sobre_corpo",
+      "points": 8,
+      "full_marks": "Até uns 1.500 caracteres, em primeira pessoa: área, principais resultados com números, competências-chave (que viram palavra-chave de busca) e como entrar em contato.",
+      "common_fail": "Vazio, ou um parágrafo genérico copiado do currículo."
+    },
+    {
+      "id": "experiencia_atual",
+      "points": 12,
+      "full_marks": "Cargo atual (ou último) com uma linha de escopo e 3 a 5 marcadores de resultado com número, verbo de ação e ferramenta. Datas corretas.",
+      "common_fail": "Só o nome da empresa e o cargo, ou lista de tarefas."
+    },
+    {
+      "id": "experiencias_anteriores",
+      "points": 7,
+      "full_marks": "As duas experiências anteriores com 2 a 3 resultados cada. Mais de 10 anos atrás: uma linha por cargo.",
+      "common_fail": "Todas vazias ou todas com o mesmo texto."
+    },
+    {
+      "id": "competencias",
+      "points": 9,
+      "full_marks": "As três primeiras competências são as três pelas quais a pessoa quer ser contratada, coerentes com o título e com as vagas-alvo. Lista limpa, sem 50 itens aleatórios.",
+      "common_fail": "'Microsoft Office', 'Trabalho em equipe' e 'Liderança' no topo."
+    },
+    {
+      "id": "foto_banner",
+      "points": 6,
+      "full_marks": "Foto recente, rosto ocupando a maior parte do círculo, fundo neutro. Capa (banner) com uma linha de posicionamento, não o padrão azul.",
+      "common_fail": "Sem foto, foto de festa, ou banner padrão."
+    },
+    {
+      "id": "formacao_certificacoes",
+      "points": 7,
+      "full_marks": "Formação com instituição e ano. Certificações relevantes para as vagas-alvo, com emissor. Registro em conselho quando a profissão exige.",
+      "common_fail": "Formação incompleta sem 'cursando', certificados irrelevantes no topo."
+    },
+    {
+      "id": "recomendacoes",
+      "points": 7,
+      "full_marks": "Pelo menos duas recomendações recebidas nos últimos dois anos, de gestores ou clientes, citando um resultado concreto.",
+      "common_fail": "Nenhuma, ou só recomendações de colegas de faculdade de 10 anos atrás."
+    },
+    {
+      "id": "url_contato",
+      "points": 5,
+      "full_marks": "URL personalizada (linkedin.com/in/nome-sobrenome) e e-mail visível em informações de contato.",
+      "common_fail": "URL com números aleatórios, sem contato."
+    },
+    {
+      "id": "localizacao_preferencias",
+      "points": 6,
+      "full_marks": "Cidade correta e preferências de vaga configuradas (cargos, modalidade, locais). O selo 'Open to work' é escolha pessoal; o importante é a configuração visível para recrutadores.",
+      "common_fail": "Localização errada ou sem preferências configuradas."
+    },
+    {
+      "id": "atividade",
+      "points": 7,
+      "full_marks": "Publicou ou comentou de forma relevante nas últimas duas semanas. Para quem busca vaga, comentar bem em posts da área vale tanto quanto postar.",
+      "common_fail": "Última atividade há meses."
+    },
+    {
+      "id": "destaque",
+      "points": 5,
+      "full_marks": "Seção Destaque com até três itens: um trabalho, artigo ou projeto que prova competência, e um caminho de contato.",
+      "common_fail": "Vazio ou com post antigo sem relação com a área."
+    }
+  ]
+}

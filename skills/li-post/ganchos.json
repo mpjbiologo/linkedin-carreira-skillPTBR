@@ -1,0 +1,181 @@
+{
+  "version": "1.0-ptbr",
+  "note": "21 fórmulas de abertura para posts de LinkedIn, em português, com exemplos de carreira. No LinkedIn a abertura é o que aparece antes do '...ver mais' (umas duas linhas). Nunca invente o número, a fala ou a história: se o usuário não deu, deixe {{seu dado}}.",
+  "rules": [
+    "Abra no fato, não na emoção ('Estou feliz em anunciar' é a abertura mais ignorada da plataforma).",
+    "Número real ganha de adjetivo.",
+    "Primeira linha curta. Segunda linha cria a vontade de clicar em 'ver mais'.",
+    "Um post, uma ideia.",
+    "Termine com uma pergunta específica, nunca 'Concordam?'."
+  ],
+  "hooks": [
+    {
+      "id": 1,
+      "name": "Opinião Contrária",
+      "template": "Todo mundo diz {conselho comum}. Depois de {experiência específica}, acho que está errado.",
+      "example": "Todo mundo diz para mandar currículo para o máximo de vagas. Depois de 120 envios e 4 respostas, acho que está errado.",
+      "best_for": "Discussão e alcance. Funciona só se a experiência for real e específica.",
+      "trap": "Discordar de algo que ninguém defende."
+    },
+    {
+      "id": 2,
+      "name": "Número Revelado",
+      "template": "Eu {fiz algo} por {N dias/semanas}. Isto foi o que aconteceu de verdade.",
+      "example": "Eu me candidatei só a vagas com 70%+ de aderência por 30 dias. Isto foi o que aconteceu.",
+      "best_for": "Experimentos. Mostre o dado.",
+      "trap": "Esconder o número no fim do post."
+    },
+    {
+      "id": 3,
+      "name": "Confissão de Erro",
+      "template": "{Custo concreto} foi o que {um erro} me custou.",
+      "example": "Seis meses de recolocação foi o que um currículo de três páginas me custou.",
+      "best_for": "Confiança rápida: as pessoas leem até o fim quando você fica mal na foto.",
+      "trap": "Erro de mentira ('meu defeito é ser perfeccionista')."
+    },
+    {
+      "id": 4,
+      "name": "Antes e Depois",
+      "template": "{Tempo atrás} eu {situação ruim}. Hoje {situação boa}. A diferença foi {uma coisa}.",
+      "example": "Em março eu não passava de triagem. Em junho tive 3 entrevistas na mesma semana. Mudei uma seção do currículo.",
+      "best_for": "Transformação de carreira. Uma alavanca só.",
+      "trap": "Três alavancas: deixa de ser crível."
+    },
+    {
+      "id": 5,
+      "name": "Lista do Que Eu Queria Saber",
+      "template": "{N} coisas que eu queria ter ouvido antes de {marco}.",
+      "example": "4 coisas que eu queria ter ouvido antes da minha primeira negociação salarial.",
+      "best_for": "Salvamentos. N entre 3 e 7.",
+      "trap": "N grande demais ou itens genéricos."
+    },
+    {
+      "id": 6,
+      "name": "Bastidor",
+      "template": "Depois de {N anos} {fazendo algo}, esta é a parte que ninguém coloca na {vaga/curso/entrevista}.",
+      "example": "Depois de 8 anos entrevistando candidatos, esta é a parte que ninguém coloca na descrição da vaga.",
+      "best_for": "Autoridade sem currículo no post.",
+      "trap": "Prometer segredo e entregar o óbvio."
+    },
+    {
+      "id": 7,
+      "name": "O Chamado",
+      "template": "Se você ainda {faz algo ultrapassado}, pare.",
+      "example": "Se você ainda coloca CPF e estado civil no currículo, pare.",
+      "best_for": "Correção útil e salvamento.",
+      "trap": "Mandar parar algo que quase ninguém faz."
+    },
+    {
+      "id": 8,
+      "name": "Dilema",
+      "template": "{Cenário concreto com custo real}. O que você faria?",
+      "example": "Duas propostas: 20% a mais em presencial ou o salário atual em remoto. O que você faria?",
+      "best_for": "Comentários. O cenário precisa ter números.",
+      "trap": "Dilema sem consequência."
+    },
+    {
+      "id": 9,
+      "name": "Diálogo de Abertura",
+      "template": "\"{Fala real}\" {quem disse, quando e por que importou}.",
+      "example": "\"Seu currículo é bom, mas não diz o que você entregou.\" Ouvi isso de uma recrutadora em 2023.",
+      "best_for": "Histórias. Abra no meio da cena.",
+      "trap": "Diálogo inventado."
+    },
+    {
+      "id": 10,
+      "name": "O Comprovante",
+      "template": "{Print ou número concreto}. {Uma frase de contexto}.",
+      "example": "De 4 para 19 entrevistas em 60 dias. O que mudou foi o título do meu perfil.",
+      "best_for": "Prova. O print vale mais que o texto.",
+      "trap": "Número sem fonte ou sem contexto."
+    },
+    {
+      "id": 11,
+      "name": "Mito Desfeito",
+      "template": "{Explicação popular} não é o motivo de {resultado ruim}.",
+      "example": "A Gupy não é o motivo de você não passar da triagem.",
+      "best_for": "Ensinar quebrando uma crença.",
+      "trap": "Trocar um mito por outro sem evidência."
+    },
+    {
+      "id": 12,
+      "name": "Comparação",
+      "template": "{Opção A} ou {opção B}? {Veredito surpreendente}.",
+      "example": "MBA ou certificação? Para quem tem menos de 5 anos de carreira, a resposta não é o MBA.",
+      "best_for": "Comentários: as pessoas chegam com opinião.",
+      "trap": "Não escolher um lado."
+    },
+    {
+      "id": 13,
+      "name": "Permissão",
+      "template": "Você pode {coisa que a pessoa sente culpa de fazer}.",
+      "example": "Você pode recusar uma vaga depois de passar em todas as etapas.",
+      "best_for": "Alívio e salvamento.",
+      "trap": "Tirar a culpa sem dar o caminho."
+    },
+    {
+      "id": 14,
+      "name": "Quebra de Padrão",
+      "template": "{Uma palavra ou frase curtíssima.}",
+      "example": "Fui demitido.",
+      "best_for": "Parar o feed. O resto do post precisa sustentar.",
+      "trap": "Usar só para chamar atenção, sem história."
+    },
+    {
+      "id": 15,
+      "name": "O Alerta",
+      "template": "{Prática comum} está custando {coisa que importa} sem você perceber.",
+      "example": "Usar o mesmo currículo para todas as vagas está custando suas entrevistas.",
+      "best_for": "Urgência real.",
+      "trap": "Alerta exagerado ou sem prova."
+    },
+    {
+      "id": 16,
+      "name": "Bom vs Excelente",
+      "template": "{Profissionais} bons {fazem X}. Excelentes {fazem Y}.",
+      "example": "Analistas bons entregam o relatório. Analistas excelentes entregam a decisão.",
+      "best_for": "Frase compartilhável.",
+      "trap": "Clichê de coach sem exemplo."
+    },
+    {
+      "id": 17,
+      "name": "Tempo que Encolhe",
+      "template": "{Tarefa} me tomava {muito tempo}. Hoje leva {pouco}.",
+      "example": "Adaptar o currículo para cada vaga me tomava 2 horas. Hoje leva 15 minutos.",
+      "best_for": "Processo e ferramenta.",
+      "trap": "Proporção inacreditável."
+    },
+    {
+      "id": 18,
+      "name": "A Regra Impopular",
+      "template": "Eu não {prática aceita}. Nunca. Por isso.",
+      "example": "Eu não faço carta de apresentação genérica. Nunca.",
+      "best_for": "Posicionamento.",
+      "trap": "Regra sem motivo."
+    },
+    {
+      "id": 19,
+      "name": "Lacuna de Curiosidade",
+      "template": "A {melhor/pior} {coisa} que eu {fiz} {quebrou a regra óbvia}.",
+      "example": "A melhor entrevista que eu fiz foi a que eu admiti não saber a resposta.",
+      "best_for": "Leitura até o fim.",
+      "trap": "Não entregar a resposta."
+    },
+    {
+      "id": 20,
+      "name": "A Saída",
+      "template": "Eu {saí/recusei/cancelei} {algo valioso}. {Resultado}.",
+      "example": "Pedi demissão sem outra vaga. Foi a decisão mais cara e mais certa da minha carreira.",
+      "best_for": "História com risco real.",
+      "trap": "Romantizar risco sem contar o custo."
+    },
+    {
+      "id": 21,
+      "name": "Valor Direto",
+      "template": "Este é o {material} exato que usei para {resultado}. Pode copiar.",
+      "example": "Este é o modelo de resumo profissional que usei nas últimas 3 recolocações. Pode copiar.",
+      "best_for": "Salvamentos e envios.",
+      "trap": "Material que não está no post."
+    }
+  ]
+}

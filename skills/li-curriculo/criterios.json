@@ -1,0 +1,51 @@
+{
+  "version": "1.0-ptbr",
+  "note": "Pesos usados por curriculo.py. O script calcula sozinho; este arquivo documenta os critérios para leitura humana.",
+  "itens": [
+    {
+      "item": "LEITURA",
+      "peso": 10,
+      "criterio": "Texto extraível do arquivo; uma coluna; sem ícones; PDF gerado de texto, não de imagem."
+    },
+    {
+      "item": "TAMANHO",
+      "peso": 8,
+      "criterio": "1 a 2 páginas (aprox. 300 a 950 palavras). Mais que isso, só com muita senioridade."
+    },
+    {
+      "item": "CONTATO",
+      "peso": 8,
+      "criterio": "E-mail, telefone com DDD, cidade/UF e LinkedIn."
+    },
+    {
+      "item": "DADOS PESSOAIS",
+      "peso": 12,
+      "criterio": "Sem CPF, RG, PIS, CTPS, título, data de nascimento, estado civil, filhos, religião, endereço completo, foto, filiação."
+    },
+    {
+      "item": "SEÇÕES",
+      "peso": 10,
+      "criterio": "Resumo, Experiência, Formação, Competências e Idiomas com títulos claros."
+    },
+    {
+      "item": "RESULTADOS",
+      "peso": 20,
+      "criterio": "40%+ das linhas de experiência com número, %, R$, prazo ou volume."
+    },
+    {
+      "item": "VERBOS DE AÇÃO",
+      "peso": 12,
+      "criterio": "Metade ou mais das linhas começando com ação; nada de 'Responsável por'."
+    },
+    {
+      "item": "CLICHÊS",
+      "peso": 8,
+      "criterio": "Sem 'proativo', 'dinâmico', 'busco crescimento profissional'."
+    },
+    {
+      "item": "DATAS",
+      "peso": 12,
+      "criterio": "Período de início e fim em cada experiência."
+    }
+  ]
+}

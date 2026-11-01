@@ -1,0 +1,10 @@
+{
+  "name": "linkedin-carreira",
+  "description": "Dez skills em português para carreira e LinkedIn no mercado brasileiro: nota de currículo (PDF/Word) com checagem de dados pessoais (LGPD), aderência currículo x vaga, busca e ranking de vagas, nota e reescrita do perfil, preparação para entrevista, pesquisa salarial, posts, comentários, plano semanal e humanizador.",
+  "version": "1.0.0",
+  "author": { "name": "Marcos de Paula Júnior", "url": "https://github.com/mpjbiologo" },
+  "homepage": "https://github.com/mpjbiologo/linkedin-carreira-skillPTBR",
+  "repository": "https://github.com/mpjbiologo/linkedin-carreira-skillPTBR",
+  "license": "MIT",
+  "keywords": ["linkedin", "curriculo", "carreira", "vagas", "entrevista", "salario", "gupy", "portugues", "brasil"]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "linkedin-carreira-skillPTBR",
+  "description": "Skills de carreira e LinkedIn em português para o mercado brasileiro",
+  "owner": { "name": "Marcos de Paula Júnior", "url": "https://github.com/mpjbiologo" },
+  "plugins": [
+    {
+      "name": "linkedin-carreira",
+      "description": "Currículo, perfil, vagas, aderência, entrevista, salário, posts e humanizador, em português.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/mpjbiologo/linkedin-carreira-skillPTBR"
+    }
+  ]
+}
